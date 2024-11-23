@@ -46,8 +46,6 @@
 
 }  
 
-
-
 @media (min-width:599px) {
  .header__nav {  
  display: block;  
@@ -56,6 +54,7 @@
  width: auto;  
  justify-content: space-between;  
  z-index: 1;
+ font-size: 12px;
  }  
 
  .header__nav-list {  
@@ -170,6 +169,7 @@ width: 100%;
   width: 65px;
    }
 
+
 }
 
  
@@ -180,6 +180,11 @@ width: 100%;
 font-size: 15px;
 margin-left: 65px;
 
+}
+
+.ir-arriba{
+  width: 3%;
+  margin-right: 5%;
 }
 
 .perfil-egresado-content li{
@@ -403,6 +408,7 @@ align-items: center;
 }
 
 
+
 .nosotros-content p {
   margin-top: -140px;
 }
@@ -430,6 +436,7 @@ margin-bottom: 12px;
   margin-top: -60px;
   width: 65px;
    }
+
 
 
 /*------- Carrusel queries----------*/  
