@@ -24,20 +24,20 @@ body {
 }  
 
 .header__open-nav-button {  
-    position: fixed; /* Para que se mantenga en la esquina */  
-    top: 20px; /* Ajusta la posición vertical según sea necesario */  
-    right: 20px; /* Ajusta la posición horizontal según sea necesario */  
-    font-size: 3rem; /* Estilo para el botón */  
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 3rem;
     font-weight:600;  
-    z-index: 15; /* Asegura que esté sobre el menú */  
-    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */  
-    background-color: transparent; /* Fondo transparente */  
-    border: none; /* Sin borde */  
-    color: #48e; /* Color del botón */  
+    z-index: 15;
+    cursor: pointer;
+    background-color: transparent;
+    border: none; 
+    color: #48e;
 }  
 
 .header__nav {  
-    display: none; /* Oculto por defecto */  
+    display: none;
     background-color: rgba(255, 255, 255, 0.9);   
     position: fixed;  
     height: 100vh;    
@@ -69,7 +69,7 @@ body {
 }   
 
 .header__open-nav-button:hover {  
-    color: #000; /* Cambiar color al pasar el cursor */  
+    color: #000;
 }  
 
 /* Mostrar menú al hacer clic */  
@@ -83,9 +83,9 @@ body {
 
 
 .header__nav-item { 
-  margin: 10px 0; /* Añadir espacio entre los elementos */  
+  margin: 10px 0;
  list-style: none;  
- position: relative; /* Establecer posición relativa para el dropdown */  
+ position: relative;
  align-items: center;
  justify-content: center;
  font-size: 22px;
@@ -102,9 +102,9 @@ body {
 }  
 
 .container-fluid {
-  display: flex; /* Usa flexbox para el diseño horizontal */
-  justify-content: space-between; /* Distribuye el espacio entre el logotipo y el menú */
-  align-items: center; /* Alinea los elementos verticalmente en el centro */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo1{
@@ -132,19 +132,19 @@ margin-left: -150px;
   font-size: 14px;
  font-weight: bold;
  font-style: oblique;
- display: none; /* Ocultar el dropdown por defecto */  
- position: absolute;  /* Posicionar el dropdown */  
- top: 100%; /* Colocar debajo del elemento padre */  
+ display: none;
+ position: absolute;
+ top: 100%;
  left:0;  
- background-color: hsla(0, 0%, 100%, 0.979); /* Fondo blanco */  
- box-shadow:02px 8px rgba(0,0,0,0.1); /* Sombra */  
- z-index:1; /* Asegurar que se superponga */  
+ background-color: hsla(0, 0%, 100%, 0.979);
+ box-shadow:02px 8px rgba(0,0,0,0.1);
+ z-index:1;
  padding: 10px;
  width: 180px;
 }  
 
 .header__nav-item:hover .dropdown {  
- display: block; /* Mostrar el dropdown al hacer hover */  
+ display: block;
 }  
 
 .dropdown li {  
@@ -152,32 +152,32 @@ margin-left: -150px;
 }  
 
 .dropdown li a {  
- color: #48e; /* Color del texto del dropdown */  
- padding:10px; /* Espaciado para los enlaces del dropdown */  
- display: block; /* Hacer que los enlaces ocupen todo el ancho */  
+ color: #48e;
+ padding:10px;
+ display: block;
 }  
 
 .dropdown-item1:hover{ /* deporte */
-  background: #02af45; /* verde*/
+  background: #02af45;
   color: white;
 }
 .dropdown-item2:hover{ /* informatica */
-  background: #001aff; /* azul */
+  background: #001aff;
   color: white;
 }
 
 .dropdown-item3:hover{ /* administracion */
-  background: #720000; /* vinotinto */
+  background: #720000;
   color: white;
 }
 
 .dropdown-item4:hover{ /* agro */
-  background: #0DE235; /* verde agro*/
+  background: #0DE235;
   color: white;
 }
 
 .dropdown-item5:hover{ /* contaduria */
-  background: #E41818; /* rojo */  
+  background: #E41818;
   color: white;
 }
 
@@ -262,11 +262,11 @@ outline: none !important;
 transition: all .3s ease-in-out;
 }
 
-/* Estilo del Footer */
+
 footer {
-  background-color: #f5f5f5; /* Define el color de fondo del pie de página */
-  padding:20px ; /* Agrega espacio superior e inferior al pie de página */
-  text-align: center; /* Alinea el contenido del pie de página al centro */
+  background-color: #f5f5f5;
+  padding:20px ;
+  text-align: center;
 }
 
 /* Boton ir Arriba */
@@ -388,6 +388,8 @@ footer {
   -webkit-animation: text-focus-in 0.8s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
   animation: text-focus-in 0.8s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
+
+
 
 /*------------------------------------------------------------------
     Estilo las subpáginas 
@@ -737,6 +739,8 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
 }
 
+
+
 /*------------------------------------------------------------------
     FASES
 -------------------------------------------------------------------*/
@@ -755,6 +759,8 @@ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   height: 60%;
   position: relative;
 }
+
+
 
 /*------------------------------------------------------------------
     FOOTER
@@ -860,6 +866,8 @@ margin-left: 90px;
   margin-top: -15px;
 }
 
+
+
 /*------------------------------------------------------------------
     animacion de texto
 -------------------------------------------------------------------*/
@@ -876,6 +884,8 @@ margin-left: 90px;
   }
 }
 
+
+
 /*------------------------------------------------------------------
     animacion de fases
 -------------------------------------------------------------------*/
@@ -887,9 +897,6 @@ margin-left: 90px;
     opacity: 1;
   }
 }
-
-
-
 
 
 
@@ -907,6 +914,8 @@ margin-left: 90px;
   75% {margin-left: -300%;}
   100% {margin-left: -300%;}
 }
+
+
 
 
 /*------------------------------------------------------------------
@@ -1031,16 +1040,16 @@ font-size: 13px;
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 .box {  
-    display: flex; /* Usar flexbox para centrar los elementos */  
-    flex-direction: column; /* Asegura que los elementos se alineen en columna */  
-    align-items: center; /* Centrar horizontalmente */  
-    margin-top: -12px; /* Margen superior */  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -12px;
 }  
 
 .red-social {  
-    display: flex; /* Usar flexbox en la sección de redes sociales */  
-    justify-content: center; /* Centrar los botones horizontalmente */  
-    flex-wrap: wrap; /* Permitir que los botones se envuelvan si es necesario */  
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }  
 
 .f-logo, .ig-logo, .x-logo, .y-logo{
@@ -1059,8 +1068,4 @@ font-size: 13px;
     background-color: #0e2653;  
     text-align: center;  
     transition: all 300ms ease;  
-}  
-
-.ubicacion img{
-  margin-left: 400px;
-}
+} 
